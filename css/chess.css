@@ -1,0 +1,97 @@
+table.chess {
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto; }
+
+table.chess tr td.letter,
+table.chess tr td.number,
+table.chess tr td.corner {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+table.chess tr td.corner {
+  width: 20px;
+  height: 20px; }
+
+table.chess tr td.light,
+table.chess tr td.dark {
+  border: 1px solid #463838;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  table.chess tr td.light,
+  table.chess tr td.dark {
+    border: 1px solid #463838;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    text-align: center; } }
+table.chess tr td.light {
+  background-color: #E6E6E6; }
+
+table.chess tr td.dark {
+  background-color: #9b9b9b; }
+
+table.chess tr td.white-king,
+table.chess tr td.white-queen,
+table.chess tr td.white-rook,
+table.chess tr td.white-bishop,
+table.chess tr td.white-knight,
+table.chess tr td.white-pawn,
+table.chess tr td.white-marker,
+table.chess tr td.black-king,
+table.chess tr td.black-queen,
+table.chess tr td.black-rook,
+table.chess tr td.black-bishop,
+table.chess tr td.black-knight,
+table.chess tr td.black-pawn,
+table.chess tr td.black-marker {
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+table.chess tr td.white-king {
+  background-image: url("/assets/white_king.png"); }
+
+table.chess tr td.white-queen {
+  background-image: url("/assets/white_queen.png"); }
+
+table.chess tr td.white-rook {
+  background-image: url("/assets/white_rook.png"); }
+
+table.chess tr td.white-bishop {
+  background-image: url("/assets/white_bishop.png"); }
+
+table.chess tr td.white-knight {
+  background-image: url("/assets/white_knight.png"); }
+
+table.chess tr td.white-pawn {
+  background-image: url("/assets/white_pawn.png"); }
+
+table.chess tr td.white-marker {
+  background-image: url("/assets/white_marker.png"); }
+
+table.chess tr td.black-king {
+  background-image: url("/assets/black_king.png"); }
+
+table.chess tr td.black-queen {
+  background-image: url("/assets/black_queen.png"); }
+
+table.chess tr td.black-rook {
+  background-image: url("/assets/black_rook.png"); }
+
+table.chess tr td.black-bishop {
+  background-image: url("/assets/black_bishop.png"); }
+
+table.chess tr td.black-knight {
+  background-image: url("/assets/black_knight.png"); }
+
+table.chess tr td.black-pawn {
+  background-image: url("/assets/black_pawn.png"); }
+
+table.chess tr td.black-marker {
+  background-image: url("/assets/black_marker.png"); }
