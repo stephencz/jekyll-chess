@@ -36,7 +36,7 @@ FEN Notation represents a chess board at a single point in time. It looks like t
 
 > r3r1kR/2p5/p1p1P3/1p4q1/1P2P3/P2P1P2/2P1KB2/Q7 b - - 2 27
 
-A FEN String is made up of six pieces. The first chunk represented by `r3r1kR/2p5/p1p1P3/1p4q1/1P2P3/P2P1P2/2P1KB2/Q7` describes the location of pieces on the board from Whites perspective from rank eight to rank one. Each rank is seperated by a backslash. White's pieces are capitalized while Black's are lowercase. And empty squares are represented by digits one through eight. For example, the above FEN String tells us that there is a Black Rook on square A8, B8, C8, and D8 are empty, a rook on E8, F8 is empty, Black's King, and then a White Rook.
+A FEN String is made up of six pieces. The first chunk represented by `r3r1kR/2p5/p1p1P3/1p4q1/1P2P3/P2P1P2/2P1KB2/Q7` describes the location of pieces on the board from Whites perspective from rank eight to rank one. Each rank is seperated by a backslash. White's pieces are capitalized while Black's are lowercase. And empty squares are represented by digits one through eight. For example, the above FEN String tells us that there is a Black Rook on square A8, meanwhile B8, C8, and D8 are empty, there is a rook on E8, F8 is empty, Black's King is on G8, and then a White Rook on H8.
 
 The second piece of information represents whose it is: 'b' or 'w'. The third part tells if castling is possible for example:
   
